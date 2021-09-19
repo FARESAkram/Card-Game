@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cards Remembering</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Welcome To a Remembering Game</h1>
+    <h1>you will be given a set of pairs of cards and you should guess each pair correctly</h1>
+    <hr>
+    <div class="container">
+        <button>Start</button>
+        <label>dim1</label>
+        <input type="number" min ="2" max="6" value="3" >
+        <label>dim2</label>
+        <input type="number" min ="2" max="6" value="4" >
+    </div>
+    <hr>
+    <div class="sidenav">
+        <button class="closebtn" >&equiv;</button>
+        <pre>
+    Enjoy 
+                the
+                        game
+        </pre>
+        <button >Play Again</button>
+        <button >Reset</button>
+        <table>
+            <tr>
+                <th style="color: yellow;">Score</th>
+                <th style="color: yellow;">High Score</th>
+            </tr>
+            <tr>
+                <td><textarea id="Score" disabled >0</textarea></td>
+                <td><textarea id="HighScore" disabled >0</textarea></td>
+            </tr>
+        </table>
+        <br>
+        <button >Feed Back</button>
+        <button >about</button>
+    </div>
+    <div class="Box">
+        
+    </div>
+    <br>
+    <script src="index.js"></script>
+</body>
+</html>
